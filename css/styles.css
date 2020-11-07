@@ -4,6 +4,7 @@ html,body{
     background: linear-gradient(315deg,#ffffff 0%,#d7e1ec,74%);
     /* color: white; */
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 .landing-page{
@@ -95,4 +96,10 @@ html,body{
 
 .button a{
     text-decoration:none;
+}
+
+@media only screen and (min-width: 480px){
+    body{
+        overflow-x: hidden;
+    }
 }
